@@ -57,6 +57,8 @@ class PagesController extends Controller {
         return view('admin.pages.edit')->withPage(Page::find($id));
     }
 
+
+
     /**
      * Update the specified resource in storage.
      *

@@ -224,7 +224,9 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        'Inspiring'=>Illuminate\Foundation\Inspiring::class,//名言警句
+        'Input'=>Illuminate\Support\Facades\Input::class,
+        'Redirect'=>Illuminate\Support\Facades\Redirect::class,
     ],
 
 ];
